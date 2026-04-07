@@ -17,32 +17,7 @@ This project aims to develop an AI-powered resume screening and ranking system u
 - **Other Libraries**: pandas, numpy, matplotlib
 - **Database**: SQLite (Optional for storing resumes and job descriptions)
 
- AI-Powered Resume Screening and Ranking System/
-│
-├── backend/                   
-│   ├── app.py               # Flask API to handle user requests and resume processing
-│   ├── model.py             # ML Model for resume ranking based on job description
-│   ├── nlp_processing.py    # NLP-based feature extraction and text processing
-│   ├── utils.py             # Helper functions for data processing and model usage
-│   ├── requirements.txt     # List of Python dependencies for the backend
-│
-├── frontend/                 
-│   ├── src/                 
-│   │   ├── components/      # UI components for the frontend (e.g., file upload forms)
-│   │   ├── pages/           # Streamlit app pages (main user interface)
-│   │   ├── App.js           # Main app entry point (for frontend logic)
-│   │   ├── index.js         # Initial file for frontend routing and setup
-│   ├── package.json         # Frontend dependencies for the project (Streamlit)
-│
-├── models/                  # Folder containing trained ML models for resume ranking
-│   ├── ranking_model.pkl    # Pickled model for ranking resumes based on the job description
-│
-├── dataset/                 # Folder to store sample resumes and job descriptions for testing
-│   ├── resumes/             # Sample resume files (PDF/TXT)
-│   ├── job_descriptions/    # Sample job description files (TXT)
-│
-├── README.md                # Project documentation and instructions
-└── .gitignore               # Git ignore file for unnecessary files
+
 
 
 
